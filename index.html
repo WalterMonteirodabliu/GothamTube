@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GothamTube — The Batman Theme</title>
+
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Oswald:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Link pro stylesheet externo -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo-badge" aria-hidden="true">
+        <img src="assets/images/batman.jpg" alt="the batman">
+      </div>
+      <div class="brand-text">
+        <span class="brand-title">GothamTube</span>
+        <span class="brand-sub">Dark Media</span>
+      </div>
+    </div>
+
+    <form class="search" role="search" aria-label="Pesquisar vídeos">
+      <input type="search" placeholder="Pesquisar Gotham..." aria-label="Pesquisar">
+      <button type="submit" aria-label="Buscar">
+        <img src="assets/images/search.png" alt="search">
+      </button>
+    </form>
+
+    <nav class="top-actions">
+      <button class="icon-btn">➕</button>
+      <button class="icon-btn">🔔</button>
+      <button class="avatar" aria-label="Conta">WM</button>
+    </nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar" aria-label="Navegação">
+      <ul>
+        <li class="active">Início</li>
+        <li class="active">Em alta</li>
+        <li class="active">Inscrições</li>
+        <li class="active">Histórico</li>
+        <li class="active">Gêneros</li>
+        <li class="active">Trailers</li>
+        <li class="active">Documentários</li>
+        <li class="active">Teorias</li>
+      </ul>
+
+      <div class="sidebar-footer">
+        
+      </div>
+    </aside>
+
+    <main class="content" role="main">
+      <section class="hero">
+        <div class="hero-left">
+          <h1>Bem-vindo a Gotham</h1>
+          <p>Curadoria de vídeos, trailers e análise.</p>
+        </div>
+        <div class="hero-right">
+          
+          <div class="hero-thumb" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section class="video-grid" aria-label="Lista de vídeos">
+        
+        <article class="video-card">
+          <div class="thumb" role="img" aria-label="Thumbnail do vídeo" style="background-image: url('https://i.imgur.com/3P1c8kq.jpg');">
+            <img src="assets/images/video1.png" alt="">
+          </div>
+          <div class="meta">
+            <h3 class="vtitle">The Batman - O Morcego e a Gata - Trailer</h3>
+            <p class="vchannel">Warner Bros. Pictures Brasil</p>
+            <p class="vinfo">7,3Mi visualizações • 3 anos atrás</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="thumb" style="background-image: url('https://i.imgur.com/9g3Q9Vb.jpg');">
+            <img src="assets/images/video2.png" alt="">
+          </div>
+          <div class="meta">
+            <h3 class="vtitle">The Batman | Michael Giacchino | WaterTower</h3>
+            <p class="vchannel">WaterTower Music</p>
+            <p class="vinfo">24Mi visualizações • 3 anos atrás</p>
+          </div>
+        </article>
+
+        <article class="video-card">
+          <div class="thumb" style="background-image: url('https://i.imgur.com/B2n8uZ9.jpg');">
+            <img src="assets/images/video3.png" alt="">
+          </div>
+          <div class="meta">
+            <h3 class="vtitle">ISSO AQUI É FLAMENGO | BRASILEIRÃO (17/08/25)</h3>
+            <p class="vchannel">Flamengo TV</p>
+            <p class="vinfo">98k visualizações • 3 semanas</p>
+          </div>
+        </article>
+
+        <!-- Mais cards... -->
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>© GothamTube — Walter Monteiro Dabliu.</p>
+  </footer>
+</body>
+</html>
